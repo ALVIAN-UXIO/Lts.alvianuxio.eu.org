@@ -15,10 +15,10 @@ permalink: /animeindo-mod/
 
 <center>LIST VERSION :<center>
   <b>4.2.8</b>
-  <center><a onclick="showAlert()" id="onOkClick" href='https:///files.alvianuxio.eu.org/dl/DoneMod_3852d0d9_enc_sign.apk'><div style="background-color:#c6dafb; border-radius: 10px; padding: 15px;">DOWNLOAD NOW</div></a></center>
+  <center><a href='https:///files.alvianuxio.eu.org/dl/DoneMod_3852d0d9_enc_sign.apk' onclick="return confirm('are you sure you want to download this file?');" ><div style="background-color:#c6dafb; border-radius: 10px; padding: 15px;">DOWNLOAD NOW</div></a></center>
 
 <b>4.2.6</b> 
-  <center><a onclick="showAlert()" id="onOkClick" href='https://files.alvianuxio.eu.org/dl/AnimeIndoV3_BerIklan_Mod.apk'><div style="background-color:#c6dafb; border-radius: 10px; padding: 15px;">DOWNLOAD NOW</div></a></center>
+  <center><a href='https://files.alvianuxio.eu.org/dl/AnimeIndoV3_BerIklan_Mod.apk' onclick="return confirm('are you sure you want to download this file?');"><div style="background-color:#c6dafb; border-radius: 10px; padding: 15px;">DOWNLOAD NOW</div></a></center>
 
 
  <cebter><h1>SELAMAT MENDOWNLOAD</h1></center>
@@ -29,30 +29,12 @@ permalink: /animeindo-mod/
 
 <script>
 
-  function showAlert()
+  function download() {
+    if (confirm ('Download file?')) {
+        location.href = 'anime indo v3 mod';
+    }
 
-  {
-
-    if(confirm("Apakah anda ingi mendownload versi ini?"))
-
-    {
-
-   document.getElementById("onOkClick").style.display="block";
-
-         document.getElementById("onCancleClick").style.display="none"
-
+    return false;
 }
-
-    else
-
-    {
-
-   document.getElementById("onOkClick").style.display="none";
-
-         document.getElementById("onCancleClick").style.display="block"
-
-}
-
-  }
 
 </script>
